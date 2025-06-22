@@ -25,6 +25,9 @@
 
 ## 🗂 Repository layout
 
+We use a monorepo–style structure to keep both frontend and backend code in a single repository for easy synchronization and unified issue tracking.
+Each service lives in its own top‐level directory to **enforce separation of concerns:**
+
 ```
 
 dimitrios-liasis-employees/
